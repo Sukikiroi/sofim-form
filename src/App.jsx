@@ -21,7 +21,7 @@ function App() {
 
   return (
 
-    <Center>
+    <Center w="100%">
       <Box w={["400px", "", "800px"]} h="auto" bg="" shadow="md" rounded="md" p={10} display="block">
         <Image src={Sofim} w="100%"  h='450px' mb={5}  />
         <Box display="block">
