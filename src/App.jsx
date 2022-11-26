@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import Sofim from './sofim.jpeg'
 import { Box } from '@chakra-ui/react'
 import { Center } from '@chakra-ui/react'
 import { Image } from '@chakra-ui/react'
@@ -21,8 +22,8 @@ function App() {
   return (
 
     <Center>
-      <Box w={["400px", "", "800px"]} h="600px" bg="" shadow="md" rounded="md" p={10} display="block">
-        <Image src="" />
+      <Box w={["400px", "", "800px"]} h="auto" bg="" shadow="md" rounded="md" p={10} display="block">
+        <Image src={Sofim} w="100%"  h='450px' mb={5}  />
         <Box display="block">
           <InputGroup mb={4}>
             <InputLeftElement
