@@ -63,7 +63,7 @@ function App() {
 
         </Box>
         <Center mt={"40px"}>
-          Cree Par <Text ml={2} color={"#2C9BC8"}> SkyDataPub </Text>
+          <Text ml={2} color={"#2C9BC8"}> SkyDataPub </Text>
         </Center>
       </Box>
 
