@@ -41,7 +41,7 @@ const CompletionForm = ({ fullname, email, numero, address }) => {
   return (
     <>
 
-      <Button onClick={() => { onOpen(); Inscription() }} bg="#2C9BC8" color="white" mt={"65px"}>
+      <Button onClick={() => { onOpen(); Inscription() }} bg="#2C9BC8" color="white" mt={"65px"} fontSize="12px">
         Inscription Sofim pharmaceutique < EditIcon ml={2} />
       </Button>
 

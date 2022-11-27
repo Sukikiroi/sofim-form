@@ -22,7 +22,7 @@ function App() {
   return (
 
     <Center w="100%">
-      <Box w={["350px", "", "800px"]} h="auto" bg="" shadow="md" rounded="md" p={10} display="block">
+      <Box w={["300px", "", "800px"]} h="auto" bg="white" shadow="md" rounded="md" p={5} display="block">
         <Image src={Sofim} w="100%"  h='450px' mb={5}  />
         <Box display="block">
           <InputGroup mb={4}>
