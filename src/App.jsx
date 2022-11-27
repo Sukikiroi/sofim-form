@@ -16,6 +16,7 @@ function App() {
   const [email, setemail] = useState()
   const [address, setaddress] = useState()
   const [numero, setnumero] = useState()
+  const [formation, setformation] = useState("")
 
 
 
@@ -38,7 +39,7 @@ function App() {
               pointerEvents='none'
               children={<CalendarIcon color='gray.300' />}
             />
-            <Input type='tel' placeholder='Address  '  onChange={(e)=>setaddress(e.target.value)} />
+            <Input type='tel' placeholder='Formation / Diplome  '  onChange={(e)=>setformation(e.target.value)} />
           </InputGroup>
 
           <InputGroup mb={4}>
@@ -57,7 +58,7 @@ function App() {
             <Input type='tel' placeholder='Email@ '  onChange={(e)=>setemail(e.target.value)} />
           </InputGroup>
 
-          <CompletionForm fullname={fullname}  numero={numero}   address={address} email={email}   />
+          <CompletionForm fullname={fullname} formation={formation} numero={numero}   address={address} email={email}   />
 
 
         </Box>

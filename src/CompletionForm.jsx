@@ -19,7 +19,7 @@ import { Image } from '@chakra-ui/react'
 import supabase from '../supabase.config'
 
 
-const CompletionForm = ({ fullname, email, numero, address }) => {
+const CompletionForm = ({ fullname,formation, email, numero, address }) => {
 
   const { isOpen, onOpen, onClose } = useDisclosure()
 
@@ -29,7 +29,7 @@ const CompletionForm = ({ fullname, email, numero, address }) => {
     const { data, error } = await supabase
     .from('sofim_contact')
     .insert([
-      { email: email, fullname: fullname, numero:numero, address: address },
+      { email: email, fullname: fullname, numero:numero, formation: formation },
     ])
   }
 
